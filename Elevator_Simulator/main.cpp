@@ -1,7 +1,10 @@
 /*
-	GSP281
-	Miranda, Celeste 
-	Course Project
+		Created by Celeste Miranda
+		Github: bitsandcels
+
+		-The user inputs the number of elevators for a 5 story building. 
+		-The simulation will run 10 times.
+		-At the end, the results of the simulation will be printed in a cvs file
 */
 
 #include "BuildingClass.h"
@@ -14,7 +17,7 @@ int main()
 	bool validInput = false;
 	while (!validInput)
 	{
-		std::cout << "How many elevators would you like? Between 1 and 8: ";
+		std::cout << "How many elevators would you like? Between 1 and 50: ";
 		std::cin >> NumElevators;
 		if (std::cin.fail())
 		{
@@ -29,7 +32,7 @@ int main()
 		}
 		else
 		{
-			std::cout << "\nPlease enter a value between 1 and 9.\n";
+			std::cout << "\nPlease enter a value between 1 and 50.\n";
 		}
 	}
 	

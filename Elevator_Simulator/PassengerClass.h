@@ -1,5 +1,14 @@
 #pragma once
 
+/*
+	Created by Celeste Miranda
+	Github: bitsandcels
+
+	-The user inputs the number of elevators for a 5 story building.
+	-The simulation will run 10 times.
+	-At the end, the results of the simulation will be printed in a cvs file
+*/
+
 class PassengerClass
 {
 private:

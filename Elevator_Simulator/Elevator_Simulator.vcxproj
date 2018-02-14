@@ -115,6 +115,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BuildingClass.h" />
+    <ClInclude Include="DataStatsClass.h" />
+    <ClInclude Include="ElevatorClass.h" />
+    <ClInclude Include="PassengerClass.h" />
+    <ClInclude Include="Util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BuidingClass.cpp" />
+    <ClCompile Include="DataStatsClass.cpp" />
+    <ClCompile Include="Elevator.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PassengerClass.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
